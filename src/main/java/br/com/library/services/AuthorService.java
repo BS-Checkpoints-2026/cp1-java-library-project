@@ -38,6 +38,11 @@ public class AuthorService {
         return authorRepository.save(newAuthor);
     }
 
+    public void deleteAuthor(Long id) {
+        findAuthorById(id);
+        authorRepository.deleteById(id);
+    }
+
     private Author findAuthorById(Long id) {
         return authorRepository.findById(id).orElseThrow(
                 () -> new ResponseStatusException(HttpStatus.NOT_FOUND, "book com id " + id + " não encontrado")
