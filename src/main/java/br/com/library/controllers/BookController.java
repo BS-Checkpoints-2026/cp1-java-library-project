@@ -30,4 +30,10 @@ public class BookController {
                 .status(HttpStatus.CREATED)
                 .body(service.addBook(book));
     }
+
+    @GetMapping("{id}")
+    public ResponseEntity<Book> getBookById(@PathVariable Long id) {
+        log.info("Obtendo dados do filme {}", id);
+        return ResponseEntity.ok(service.getBookById(id));
+    }
 }
