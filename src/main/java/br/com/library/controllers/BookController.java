@@ -43,4 +43,10 @@ public class BookController {
         service.deleteBook(id);
         return ResponseEntity.noContent().build();
     }
+
+    @PutMapping("{id}")
+    public ResponseEntity<Book> updateBook(@PathVariable Long id, @RequestBody Book book){
+        log.info("Atualizando filme com id {} com os dados {}", id, book);
+        return ResponseEntity.ok( service.updateBook(id, book) );
+    }
 }
