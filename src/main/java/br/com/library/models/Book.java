@@ -14,7 +14,7 @@ public class Book {
     @Id @GeneratedValue (strategy = GenerationType.IDENTITY)
     public Long id;
     public String title;
-    public Integer year;
+    public Integer publishYear;
     public Boolean available;
     public BigDecimal price;
 }
