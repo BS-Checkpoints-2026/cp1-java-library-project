@@ -2,6 +2,7 @@ package br.com.library.services;
 
 import br.com.library.models.Author;
 import br.com.library.repositories.AuthorRepository;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;
 import org.springframework.web.server.ResponseStatusException;
@@ -11,7 +12,8 @@ import java.util.List;
 @Service
 public class AuthorService {
 
-    private final AuthorRepository authorRepository;
+    @Autowired
+    private AuthorRepository authorRepository;
 
     public AuthorService(AuthorRepository authorRepository){
         this.authorRepository = authorRepository;
