@@ -35,4 +35,10 @@ public class AuthorController {
         Author author = service.getAuthorById(id);
         return ResponseEntity.ok(author);
     }
+
+    @PutMapping("{id}")
+    public ResponseEntity<Author> updateAuthor(@PathVariable Long id, @RequestBody Author book){
+        log.info("Atualizando filme com id {} com os dados {}", id, book);
+        return ResponseEntity.ok( service.updateAuthor(id, book) );
+    }
 }

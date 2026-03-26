@@ -28,9 +28,14 @@ public class AuthorService {
         return authorRepository.findAll();
     }
 
-
     public Author getAuthorById(Long id){
         return findAuthorById(id);
+    }
+
+    public Author updateAuthor(Long id, Author newAuthor) {
+        findAuthorById(id);
+        newAuthor.setId(id);
+        return authorRepository.save(newAuthor);
     }
 
     private Author findAuthorById(Long id) {
