@@ -27,6 +27,11 @@ public class BookService {
         return findBookById(id);
     }
 
+    public void deleteBook(Long id) {
+        findBookById(id);
+        repository.deleteById(id);
+    }
+
     private Book findBookById(Long id) {
         return repository.findById(id).orElseThrow(
                 () -> new ResponseStatusException(HttpStatus.NOT_FOUND, "book com id " + id + " não encontrado")

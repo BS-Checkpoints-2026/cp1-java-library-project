@@ -36,4 +36,11 @@ public class BookController {
         log.info("Obtendo dados do filme {}", id);
         return ResponseEntity.ok(service.getBookById(id));
     }
+
+    @DeleteMapping("{id}")
+    public ResponseEntity<Void> deleteBook(@PathVariable Long id) {
+        log.info("Deletando filme com id {}", id);
+        service.deleteBook(id);
+        return ResponseEntity.noContent().build();
+    }
 }
