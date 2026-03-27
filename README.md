@@ -77,3 +77,11 @@ As entidades modeladas no sistema foram:
 | DELETE | /              | Descrição                     |
 
 ---
+
+---
+
+## 🌐 Endpoints
+
+<a href="https://drive.google.com/file/d/1Y2G4aUXG9kgjkACH9bXIWuoKIdraN_bY/view?usp=drive_link" target="_blank" rel="noopener noreferrer">Clique aqui para baixar o arquivo de teste dos endpoints no aplicativo Insomnia</a>
+
+---
