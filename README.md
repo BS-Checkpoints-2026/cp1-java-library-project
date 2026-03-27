@@ -78,10 +78,31 @@ As entidades modeladas no sistema foram:
 
 ---
 
----
-
-## 🌐 Endpoints
+## 🌐 Endpoints - Insomnia
 
 <a href="https://drive.google.com/file/d/1Y2G4aUXG9kgjkACH9bXIWuoKIdraN_bY/view?usp=drive_link" target="_blank" rel="noopener noreferrer">Clique aqui para baixar o arquivo de teste dos endpoints no aplicativo Insomnia</a>
+
+---
+
+## ▶️ Como executar no Insomnia
+
+Siga os passos abaixo para abrir o arquivo no seu aplicativo Insomnia:
+
+### ✅ Passos para execução
+
+1. **Baixe o arquivo do drive pelo link acima**  
+<br/>
+
+2. **Abra o arquivo no Insomnia**  
+   1 - Após baixar o arquivo abra o Insomnia.
+   <br/>
+   2 - Clique em Import:
+   <br/>
+   <img src="https://res.cloudinary.com/dt26mfzpw/image/upload/v1774619071/insomnia-print_gaa1p1.png" width="700" height="800">
+   <br/>
+   3 - Adicione o arquivo e depois clique em **Scan**:
+   <img src="https://res.cloudinary.com/dt26mfzpw/image/upload/v1774619073/insomnia-print2_nipkyw.png">
+   <br/>
+<br/>
 
 ---
