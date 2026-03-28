@@ -1,7 +1,6 @@
 package br.com.library.services;
 
 import br.com.library.models.Author;
-import br.com.library.models.Book;
 import br.com.library.repositories.AuthorRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -45,7 +44,7 @@ public class AuthorService {
 
     private Author findAuthorById(Long id) {
         return authorRepository.findById(id).orElseThrow(
-                () -> new ResponseStatusException(HttpStatus.NOT_FOUND, "book com id " + id + " não encontrado")
+                () -> new ResponseStatusException(HttpStatus.NOT_FOUND, "Autor com id " + id + " não foi encontrado.")
         );
     }
 }

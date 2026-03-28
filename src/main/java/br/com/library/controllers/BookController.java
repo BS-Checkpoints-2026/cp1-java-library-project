@@ -33,20 +33,20 @@ public class BookController {
 
     @GetMapping("{id}")
     public ResponseEntity<Book> getBookById(@PathVariable Long id) {
-        log.info("Obtendo dados do filme {}", id);
+        log.info("Obtendo dados do livro {}", id);
         return ResponseEntity.ok(service.getBookById(id));
     }
 
     @DeleteMapping("{id}")
     public ResponseEntity<Void> deleteBook(@PathVariable Long id) {
-        log.info("Deletando filme com id {}", id);
+        log.info("Deletando livro com id {}", id);
         service.deleteBook(id);
         return ResponseEntity.noContent().build();
     }
 
     @PutMapping("{id}")
     public ResponseEntity<Book> updateBook(@PathVariable Long id, @RequestBody Book book){
-        log.info("Atualizando filme com id {} com os dados {}", id, book);
+        log.info("Atualizando livro com id {} com os dados {}", id, book);
         return ResponseEntity.ok( service.updateBook(id, book) );
     }
 }

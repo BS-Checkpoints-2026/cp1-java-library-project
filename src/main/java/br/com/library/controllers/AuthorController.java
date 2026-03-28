@@ -38,13 +38,13 @@ public class AuthorController {
 
     @PutMapping("{id}")
     public ResponseEntity<Author> updateAuthor(@PathVariable Long id, @RequestBody Author author){
-        log.info("Atualizando filme com id {} com os dados {}", id, author);
+        log.info("Atualizando autor com id {} com os dados {}", id, author);
         return ResponseEntity.ok( service.updateAuthor(id, author) );
     }
 
     @DeleteMapping("{id}")
     public ResponseEntity<Void> deleteAuthor(@PathVariable Long id) {
-        log.info("Deletando filme com id {}", id);
+        log.info("Deletando autor com id {}", id);
         service.deleteAuthor(id);
         return ResponseEntity.noContent().build();
     }
