@@ -55,54 +55,61 @@ As entidades modeladas no sistema foram:
 ---
 
 ## 🔗 Endpoints - Book
-(atualizando...)
 
 | Método | Rota           | Descrição                     |
 | ------ | -------------- | ----------------------------- |
-| GET    | /              | Descrição                     |
-| POST   | /              | Descrição                     |
-| PUT    | /              | Descrição                     |
-| DELETE | /              | Descrição                     |
+| GET    | /books         | Listar livros                 |
+| GET    | /books/{id}    | Buscar livro por Id           |
+| POST   | /books         | Cadastrar livro               |
+| PUT    | /books/{id}    | Atualizar livro               |
+| DELETE | /books/{id     | Excluir livro                 |
 
 ---
 
 ## 🔗 Endpoints - Author
-(atualizando...)
 
 | Método | Rota           | Descrição                     |
 | ------ | -------------- | ----------------------------- |
-| GET    | /              | Descrição                     |
-| POST   | /              | Descrição                     |
-| PUT    | /              | Descrição                     |
-| DELETE | /              | Descrição                     |
+| GET    | /authors       | Listar autores                |
+| GET    | /authors/{id}  | Buscar autor por Id           |
+| POST   | /authors       | Cadastrar autor               |
+| PUT    | /authors/{id}  | Atualizar autor               |
+| DELETE | /authors/{id}  | Excluir autor                 |
 
 ---
 
 ## 🌐 Endpoints - Insomnia
-
-<a href="https://drive.google.com/file/d/1Y2G4aUXG9kgjkACH9bXIWuoKIdraN_bY/view?usp=drive_link" target="_blank" rel="noopener noreferrer">Clique aqui para baixar o arquivo de teste dos endpoints no aplicativo Insomnia</a>
-
----
-
-## ▶️ Como executar no Insomnia
-
-Siga os passos abaixo para abrir o arquivo no seu aplicativo Insomnia:
+Siga os passos abaixo para abrir o arquivo de Teste dos Endpoints no seu aplicativo Insomnia:
 
 ### ✅ Passos para execução
 
-1. **Baixe o arquivo do drive pelo link acima**  
+1. **Baixe o arquivo do drive pelo link:**
+   <a href="https://drive.google.com/file/d/1Y2G4aUXG9kgjkACH9bXIWuoKIdraN_bY/view?usp=drive_link" target="_blank" rel="noopener noreferrer">Clique aqui para baixar o arquivo de teste.</a>  
 <br/>
 
-2. **Abra o arquivo no Insomnia**  
-   1 - Após baixar o arquivo abra o Insomnia.
+2. **Abra o arquivo no Insomnia.**  
+   2.1 - Após baixar o arquivo abra o Insomnia.
    <br/>
-   2 - Clique em Import:
+   
+   2.2 - Clique em **Import**:
    <br/>
    <img src="https://res.cloudinary.com/dt26mfzpw/image/upload/v1774619071/insomnia-print_gaa1p1.png" width="700" height="800">
    <br/>
-   3 - Adicione o arquivo e depois clique em **Scan**:
-   <img src="https://res.cloudinary.com/dt26mfzpw/image/upload/v1774619073/insomnia-print2_nipkyw.png">
+   
+   2.3 - Adicione o arquivo e depois clique em **Scan**:
    <br/>
+   <img src="https://res.cloudinary.com/dt26mfzpw/image/upload/v1774619073/insomnia-print2_nipkyw.png" width="700" height="800">
+   <br/>
+   
+   2.4 - Verifique se o arquivo está correto e clique em **Import**:
+   <br/>
+   <img src="https://res.cloudinary.com/dt26mfzpw/image/upload/v1774620799/insomnia-print3_rbuwkc.png" width="700" height="800">
+   <br/>
+<br/>
+
+3. **Faça os testes dos Endpoints.**
+   <br/>
+   <img src="https://res.cloudinary.com/dt26mfzpw/image/upload/v1774620858/insomnia-print4_eoewpn.png" width="700" height="800"> 
 <br/>
 
 ---
