@@ -93,23 +93,23 @@ Siga os passos abaixo para abrir o arquivo de Teste dos Endpoints no seu aplicat
    
    2.2 - Clique em **Import**:
    <br/>
-   <img src="https://res.cloudinary.com/dt26mfzpw/image/upload/v1774619071/insomnia-print_gaa1p1.png" width="700" height="800">
+   <img src="https://res.cloudinary.com/dt26mfzpw/image/upload/v1774619071/insomnia-print_gaa1p1.png" width="100%" height="800">
    <br/>
    
    2.3 - Adicione o arquivo e depois clique em **Scan**:
    <br/>
-   <img src="https://res.cloudinary.com/dt26mfzpw/image/upload/v1774619073/insomnia-print2_nipkyw.png" width="700" height="800">
+   <img src="https://res.cloudinary.com/dt26mfzpw/image/upload/v1774619073/insomnia-print2_nipkyw.png" width="100%" height="800">
    <br/>
    
    2.4 - Verifique se o arquivo está correto e clique em **Import**:
    <br/>
-   <img src="https://res.cloudinary.com/dt26mfzpw/image/upload/v1774620799/insomnia-print3_rbuwkc.png" width="700" height="800">
+   <img src="https://res.cloudinary.com/dt26mfzpw/image/upload/v1774620799/insomnia-print3_rbuwkc.png" width="100%" height="800">
    <br/>
 <br/>
 
 3. **Faça os testes dos Endpoints.**
    <br/>
-   <img src="https://res.cloudinary.com/dt26mfzpw/image/upload/v1774620858/insomnia-print4_eoewpn.png" width="700" height="800"> 
+   <img src="https://res.cloudinary.com/dt26mfzpw/image/upload/v1774620858/insomnia-print4_eoewpn.png" width="100%" height="800"> 
 <br/>
 
 ---
